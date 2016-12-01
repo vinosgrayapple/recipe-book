@@ -1,3 +1,4 @@
+import { ShoppingListComponent } from './shopping-list';
 import { Component } from '@angular/core';
 import { HeaderComponent } from './header.component';
 import { RecipesComponent } from './recipes/';
@@ -5,7 +6,7 @@ import { RecipesComponent } from './recipes/';
   moduleId: module.id,
   selector: 'recipe-book-app',
   templateUrl: 'recipe-book.component.html',
-  directives: [HeaderComponent, RecipesComponent]
+  directives: [HeaderComponent, RecipesComponent, ShoppingListComponent]
 })
 export class RecipeBookAppComponent {
 }
